@@ -13,3 +13,18 @@ print(is_palindrome("토마토"))
 False
 True
 '''
+
+import math
+
+
+def is_palindrome(a):
+    b = math.floor(len(a) / 2)
+    for i in range(b):
+        if a[i] == a[-(i + 1)]:
+            return ('True')
+        else:
+            return ('False')
+
+
+print(is_palindrome("radio"))
+print(is_palindrome("토마토"))
