@@ -13,4 +13,5 @@ def Triangle(a,b) :
     answer = ((a*b)/2)
     return answer
 
-print(Triangle(10,20))
+print(Triangle(1
+0,20))
