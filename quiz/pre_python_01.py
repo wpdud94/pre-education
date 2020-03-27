@@ -13,3 +13,11 @@
 ★★★★★
 ★★★★★
  """
+print('가로의 숫자를 입력하시오. :', end = '')
+mine1 = int(input())
+print('세로의 숫자를 입력하시오. :', end = '')
+mine2 = int(input())
+
+for i in range(mine2):
+    if i <= mine2 :
+        print('★'*mine1)
