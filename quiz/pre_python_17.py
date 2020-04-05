@@ -23,3 +23,8 @@
 2056
 2060
 """
+wyear = 1988-4
+b = int((2060-1988)/4)
+for i in range(1,b+2,1) :
+    wyear = wyear + 4
+    print(wyear)

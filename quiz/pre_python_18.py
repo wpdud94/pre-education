@@ -14,3 +14,12 @@ print(new_list)
 ['exit', 'hi', 'playdata', 'intro']
 
 """
+file = ['exit.py','hi.py','playdata.hwp','intro.jpg']
+str = ".".join(file)
+# print(str)
+list= str.split('.')
+# print(list)
+
+for i in range(7,0,-2) :
+    del list[i]
+print(list)

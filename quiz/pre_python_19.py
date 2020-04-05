@@ -10,3 +10,11 @@ print(list)
 ['charlie', 'foxtrot']
 
  """
+a = ['alpha', 'bravo', 'charlie', 'delta', 'echo', 'foxtrot', 'golf', 'hotel', 'india']
+list = []
+# print(len(a[0]))
+for i in range(len(a)) :
+    if len(a[i]) != 7 :
+        continue
+    list = list + [a[i]]
+print(list)

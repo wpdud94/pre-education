@@ -8,3 +8,16 @@
 <출력>
 남자
 """
+idr = input('주민등록번호 : ')
+# print(idr)
+
+idl = list(idr)
+# print(idl)
+idl = idl[7:8]
+
+print(idl)
+
+if '1' in idl or '3' in idl :
+    print('남자')
+else :
+    print('여자')

@@ -27,3 +27,10 @@
 
 
 """
+num = int(input('숫자를 입력하세요 :'))
+num2 = int(num * 2)
+for i in range(num2) :
+    if i<num :
+        print(' '*(num-(i+1)),'★'*(i+1))
+    elif i>=num :
+        print(' '*(i-num+1), '★'*(num-(i-num)-1))

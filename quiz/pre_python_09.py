@@ -15,3 +15,15 @@ score : 88
 A
 
 """
+s = float(input('score : '))
+
+if s >= 0 and s <= 20 :
+    print('F')
+elif s > 20 and s <= 40 :
+    print('D')
+elif s > 40  and s <= 60 :
+    print('C')
+elif s > 60 and s <= 80 :
+    print('B')
+elif s > 80 and s <= 100 :
+    print('A')
